@@ -1,0 +1,35 @@
+{
+  "name": "dice-textures",
+  "version": "1.0.0",
+  "main": "dist/dice-textures.cjs.js",
+  "module": "dist/dice-textures.esm.js",
+  "browser": "dist/dice-textures.umd.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/ms": "^0.7.30",
+    "prettier": "^1.19.1",
+    "rollup": "^1.0.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "rollup-plugin-typescript": "^1.0.0",
+    "ts-node": "^7.0.1",
+    "tslib": "^1.9.3",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "ts-node test/test.ts",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "prettier": {
+    "trailingComma": "es5",
+    "printWidth": 100,
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": true
+  }
+}

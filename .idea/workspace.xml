@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d9bf29c-94a6-4534-96b7-363cc62fc7a6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UH6wngGGDX5p31K6aVxnQFdyFR" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\s-che\AppData\Roaming\npm\node_modules\prettier" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="C:\Users\s-che\WebstormProjects\DiceTextures\node_modules\typescript\lib" />
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d9bf29c-94a6-4534-96b7-363cc62fc7a6" name="Default Changelist" comment="" />
+      <created>1575001414164</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575001414164</updated>
+      <workItem from="1575001415418" duration="3608000" />
+      <workItem from="1575085923000" duration="12012000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="568" y="269" width="784" height="766" key="EditFileWatcherDialog" timestamp="1575089892196">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="568" y="269" width="784" height="766" key="EditFileWatcherDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1575089892196" />
+    <state width="1866" height="189" key="GridCell.Tab.0.bottom" timestamp="1575096642666">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1866" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1575096642666" />
+    <state width="1866" height="189" key="GridCell.Tab.0.center" timestamp="1575096642666">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1866" height="189" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1575096642666" />
+    <state width="1866" height="189" key="GridCell.Tab.0.left" timestamp="1575096642666">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1866" height="189" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1575096642666" />
+    <state width="1866" height="189" key="GridCell.Tab.0.right" timestamp="1575096642666">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1866" height="189" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1575096642666" />
+    <state x="360" y="97" key="SettingsEditor" timestamp="1575089896691">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="360" y="97" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1575089896691" />
+    <state x="584" y="220" width="752" height="640" key="find.popup" timestamp="1575096668547">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="584" y="220" width="752" height="640" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1575096668547" />
+  </component>
+</project>
