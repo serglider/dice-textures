@@ -2,17 +2,19 @@ import { DrawConfig, OutputConfig } from './types';
 
 const draw: DrawConfig = {
     size: 100,
-    color: 'black',
+    color: '',
     cornerRadius: 0,
-    pipColor: 'white',
+    pipColor: '',
     strokeColor: '',
+    strokeLineWidth: 0,
     pipStrokeColor: '',
-    paddingFactor: 0.2,
-    pipSizeFactor: 0.1,
+    pipStrokeLineWidth: 0,
+    padding: 20,
+    pipRadius: 10,
 };
 
 const output: OutputConfig = {
-    type: 'image/jpeg',
+    type: 'image/png',
     quality: 0.92,
 };
 
