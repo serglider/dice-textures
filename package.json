@@ -2,9 +2,20 @@
   "name": "dice-textures",
   "version": "1.0.0",
   "description": "Generates 6 dice face textures",
+  "keywords": [
+    "dice",
+    "die",
+    "texture",
+    "textures"
+  ],
+  "license": "MIT",
   "main": "dist/dice-textures.cjs.js",
   "module": "dist/dice-textures.esm.js",
   "browser": "dist/dice-textures.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serglider/dice-textures.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "@types/ms": "^0.7.30",

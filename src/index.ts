@@ -1,4 +1,4 @@
-import { DrawConfig, UserDrawConfig, OutputConfig } from './types';
+import { DrawConfig, UserDrawConfig, OutputConfig, Point } from './types';
 import defaultConfigs from './defaultConfigs';
 import createDiceFace from './diceFace';
 import calculatePipsPositions from './pipsPositions';
@@ -16,7 +16,7 @@ export default function createDiceTextures(
 
     return canvases.map(canvas => canvas.toDataURL(type, quality));
 
-    function initDiceFace(pips: []): HTMLCanvasElement {
+    function initDiceFace(pips: Point[]): HTMLCanvasElement {
         return createDiceFace(pips, cfg);
     }
 }

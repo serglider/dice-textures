@@ -1,4 +1,6 @@
-export default function calculatePipsPositions(size: number, padding: number): any[] {
+import { Point } from './types';
+
+export default function calculatePipsPositions(size: number, padding: number): Point[][] {
     const smaller = padding;
     const bigger = size - padding;
     const center = size / 2;
