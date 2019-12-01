@@ -29,16 +29,16 @@ Both parameters are optional. For details see below.
 #### Draw options
 Name | Type | Default | Description
 --- | --- | --- | ---
-size | number  | 100| side of the square texture, px
+size | number  | 100| side of the square texture
 color | string  | black | any CSS color representation
 strokeColor | string  | black | any CSS color representation
 strokeLineWidth | number  | 0 | width of the stroke line
 cornerRadius | number  | 0 | rounded rect corner radius
-padding | number  | 0 | TODO
-pipColor | number  | 0 | TODO
-pipStrokeColor | number  | 0 | TODO
-pipStrokeLineWidth | number  | 0 | TODO
-pipRadius | number  | 0 | TODO
+padding | number  | 0 | distance between the center of the pip and the dice edge
+pipColor | string  | 'white' | any CSS color representation
+pipStrokeColor | string  | 'white' | any CSS color representation
+pipStrokeLineWidth | number  | 0 | width of the pip stroke line
+pipRadius | number  | 10 | pip radius
 
 #### Output options
 Name | Type | Default | Description
