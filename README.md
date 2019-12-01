@@ -18,11 +18,11 @@ or
 ## Usage
 
 ```js
-    const diceFace5Image = document.getElementById('diceFace5Image');
-    const drawOptions = { size: 300};
-    const outputOptions = { type: 'image/jpeg', quality: 0.5 };
-    const diceFaceTextures = createDiceTextures(drawOptions, outputOptions);
-    diceFace5Image.src = diceFaceTextures[4];
+const diceFace5Image = document.getElementById('diceFace5Image');
+const drawOptions = { size: 300};
+const outputOptions = { type: 'image/jpeg', quality: 0.5 };
+const diceFaceTextures = createDiceTextures(drawOptions, outputOptions);
+diceFace5Image.src = diceFaceTextures[4];
 ```
 Both parameters are optional. For details see below.
 
