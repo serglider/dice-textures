@@ -2,14 +2,14 @@ import { DrawConfig, OutputConfig } from './types';
 
 const draw: DrawConfig = {
     size: 100,
-    color: '',
-    cornerRadius: 0,
-    pipColor: '',
-    strokeColor: '',
+    color: 'black',
+    strokeColor: 'black',
     strokeLineWidth: 0,
-    pipStrokeColor: '',
+    cornerRadius: 0,
+    padding: 24,
+    pipColor: 'white',
+    pipStrokeColor: 'white',
     pipStrokeLineWidth: 0,
-    padding: 20,
     pipRadius: 10,
 };
 
