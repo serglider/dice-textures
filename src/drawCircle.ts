@@ -1,10 +1,10 @@
-import { DrawConfig, Point } from './types';
+import { TextureConfig, Point } from './types';
 import { createCirclePath } from './paths';
 
 export default function drawCircle(
     ctx: CanvasRenderingContext2D,
     origin: Point,
-    config: DrawConfig
+    config: TextureConfig
 ): void {
     const { pipColor, pipStrokeColor, pipStrokeLineWidth, pipRadius } = config;
     const { x, y } = origin;

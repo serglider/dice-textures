@@ -1,13 +1,19 @@
-import { DrawConfig, UserDrawConfig, OutputConfig, Point } from './types';
+import { TextureConfig, OutputConfig, Point } from './types';
 import defaultConfigs from './defaultConfigs';
 import createDiceFace from './diceFace';
 import calculatePipsPositions from './pipsPositions';
 
+/**
+ * Creates an array of  6 data URI strings
+ * @param textureConfig - texture configuration object
+ * @param outputConfig - output configuration object
+ * @return Array of  6 data URI strings
+ */
 export default function createDiceTextures(
-    drawConfig: UserDrawConfig,
-    outputConfig?: OutputConfig
+    textureConfig?: Partial<TextureConfig>,
+    outputConfig?: Partial<OutputConfig>
 ): string[] {
-    const cfg: DrawConfig = Object.assign({}, defaultConfigs.draw, drawConfig);
+    const cfg: TextureConfig = Object.assign({}, defaultConfigs.texture, textureConfig);
     const output: OutputConfig = Object.assign({}, defaultConfigs.output, outputConfig);
     const { type, quality } = output;
     const { size, padding } = cfg;

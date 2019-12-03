@@ -18,22 +18,18 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/ms": "^0.7.30",
+    "@ampproject/rollup-plugin-closure-compiler": "^0.13.0",
     "prettier": "^1.19.1",
     "rollup": "^1.0.0",
-    "@ampproject/rollup-plugin-closure-compiler": "^0.13.0",
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-typescript": "^1.0.0",
-    "ts-node": "^7.0.1",
     "tslib": "^1.9.3",
     "typescript": "^3.2.2"
   },
   "scripts": {
     "build": "rollup -c rollup/prod.config.js",
-    "dev": "rollup -c rollup/dev.config.js -w",
-    "test": "ts-node test/test.ts",
-    "pretest": "npm run build"
+    "dev": "rollup -c rollup/dev.config.js -w"
   },
   "files": [
     "dist"

@@ -1,4 +1,4 @@
-export type DrawConfig = {
+export type TextureConfig = {
     size: number;
     color: string;
     pipColor: string;
@@ -9,19 +9,6 @@ export type DrawConfig = {
     strokeLineWidth: number;
     pipStrokeColor: string;
     pipStrokeLineWidth: number;
-};
-
-export type UserDrawConfig = {
-    size?: number;
-    color?: string;
-    pipColor?: string;
-    pipRadius?: number;
-    padding?: number;
-    cornerRadius?: number;
-    strokeColor?: string;
-    strokeLineWidth?: number;
-    pipStrokeColor?: string;
-    pipStrokeLineWidth?: number;
 };
 
 export type OutputConfig = {

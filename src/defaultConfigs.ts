@@ -1,6 +1,6 @@
-import { DrawConfig, OutputConfig } from './types';
+import { TextureConfig, OutputConfig } from './types';
 
-const draw: DrawConfig = {
+const texture: TextureConfig = {
     size: 100,
     color: 'black',
     strokeColor: 'black',
@@ -18,6 +18,6 @@ const output: OutputConfig = {
     quality: 0.92,
 };
 
-const defaultConfigs = { draw, output };
+const defaultConfigs = { texture, output };
 
 export default defaultConfigs;

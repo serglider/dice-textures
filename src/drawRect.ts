@@ -1,7 +1,7 @@
-import { DrawConfig } from './types';
+import { TextureConfig } from './types';
 import { createRectPath } from './paths';
 
-export default function drawRect(ctx: CanvasRenderingContext2D, config: DrawConfig): void {
+export default function drawRect(ctx: CanvasRenderingContext2D, config: TextureConfig): void {
     const { size, cornerRadius, color, strokeColor, strokeLineWidth } = config;
     const path: Path2D = createRectPath(size, cornerRadius, strokeLineWidth);
 
