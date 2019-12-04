@@ -24,6 +24,16 @@ const outputOptions = { type: 'image/jpeg', quality: 0.5 };
 const diceFaceTextures = createDiceTextures(texturesOptions, outputOptions);
 diceFace5Image.src = diceFaceTextures[4];
 ```
+pixi.js
+```js
+import { Sprite } from 'pixi.js';
+...
+const texturesOptions = { size: 300};
+const outputOptions = { type: 'image/jpeg', quality: 0.5 };
+const diceFaceTextures = createDiceTextures(texturesOptions, outputOptions);
+const diceFaces = diceFaceTextures.map(texture => Sprite.from(texture));
+```
+
 Both parameters are optional. For details see below.
 
 ## Options
