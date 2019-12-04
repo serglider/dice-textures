@@ -12,7 +12,7 @@ npm i dice-textures
 or
 
 ```html
-<script src="dist/dice-textures.umd.js"></script>
+<script src="https://unpkg.com/dice-textures/dist/dice-textures.umd.js"></script>
 ```
 
 ## Usage
