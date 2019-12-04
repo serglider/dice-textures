@@ -27,7 +27,7 @@ diceFace5Image.src = diceFaceTextures[4];
 pixi.js
 ```js
 import { Sprite } from 'pixi.js';
-import { createDiceTextures } from 'dice-textures';
+import createDiceTextures from 'dice-textures';
 ...
 const texturesOptions = { size: 300};
 const outputOptions = { type: 'image/jpeg', quality: 0.5 };
