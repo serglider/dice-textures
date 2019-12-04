@@ -19,16 +19,16 @@ or
 
 ```js
 const diceFace5Image = document.getElementById('diceFace5Image');
-const drawOptions = { size: 300};
+const texturesOptions = { size: 300};
 const outputOptions = { type: 'image/jpeg', quality: 0.5 };
-const diceFaceTextures = createDiceTextures(drawOptions, outputOptions);
+const diceFaceTextures = createDiceTextures(texturesOptions, outputOptions);
 diceFace5Image.src = diceFaceTextures[4];
 ```
 Both parameters are optional. For details see below.
 
 ## Options
 
-#### Draw options
+#### Textures options
 Name | Type | Default | Description
 --- | --- | --- | ---
 size | number  | 100| side of the square texture
